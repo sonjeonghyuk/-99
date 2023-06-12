@@ -10,6 +10,8 @@ public class W17 {
 //                System.out.println(i +" 곱하기 "+ j + "는 " + i*j + "입니다.");
 //            }
 //        }
+
+        //선택한 단 빼고 구구단 만들기
         Scanner sc = new Scanner(System.in);
         int passnum = sc.nextInt();
         for(int i=2; i<=9; i++) {
